@@ -348,7 +348,7 @@ providers:  # @schema additionalProperties: false
 # After the volume has been mounted, add the configs into traefik by using the `additionalArguments` list below, eg:
 additionalArguments:
   - "--entrypoints.websecure.http.tls=true"
-  - "--entrypoints.websecure.http.tls.certresolver=default
+  - "--entrypoints.websecure.http.tls.certresolver=default"
   - "--entrypoints.websecure.http.tls.domains[0].main=example.wow"
 # - "--providers.file.filename=/config/dynamic.toml"
 # - "--ping"
